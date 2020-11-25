@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+}
+
+
+
+.text {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 40vh;
+}
+
+.button {
+  /* 
+    
+  */
+  width: 125px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  border: 1px solid #926239;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: whitesmoke;
+  background-color: #926239;
+}
+
+.text-color {
+  color: #926239;
+}
+
+.colours {
+  background-color: whitesmoke;
+}
+
+.colours-reverse {
+  color: whitesmoke;
+  background-color: #926239;
+}
+
+.inline-section {
+  width: 33.3%;
+  display: inline-block;
+}
